@@ -175,6 +175,8 @@ else:
             "Patient": ["John Doe", "Sarah Kumar", "Rahul Sharma"],
             "Doctor": ["Dr. Smith", "Dr. Patel", "Dr. Thomas"]
         })
+        if st.button("📅 Check Appointment Schedule"):
+            st.info("Today's appointment schedule is up to date.")
 
     elif page == "Patients":
         st.title("Patients")
